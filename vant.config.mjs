@@ -1,15 +1,16 @@
 export default {
-  name: 'test',
+  name: 'van-cli-test',
   build: {
+    packageManager: 'pnpm',
     css: {
       preprocessor: 'sass',
     },
     site: {
-      publicPath: '/test/',
+      publicPath: '/van-cli-test/',
     },
   },
   site: {
-    title: 'test',
+    title: 'van-cli-test',
     logo: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
     nav: [
       {

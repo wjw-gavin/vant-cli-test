@@ -5,13 +5,16 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
+const props = defineProps({
   color: String,
   type: {
     type: String,
     default: 'primary',
   },
 })
+
+console.log(props);
+
 </script>
 
 <style lang="scss">
